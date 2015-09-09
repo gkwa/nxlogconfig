@@ -1,0 +1,16 @@
+README.txt
+# conf/
+cryptoeay32-0.9.8.dll
+doc/
+libapr-1-0.dll
+libexpat-1.dll
+libiconv-2.dll
+libnx-0.dll
+libpcre-0.dll
+modules/
+nxlog-processor.exe
+nxlog-stmnt-verifier.exe
+nxlog.exe
+o
+ssleay32-0.9.8.dll
+zlib1.dll
