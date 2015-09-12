@@ -1,3 +1,21 @@
+Its this line:
+	Exec $filetype = 'apache_error';
+that adds the metadata 
+
+```
+# nxlog.conf
+
+<Input apache_error>
+	Module im_file
+	File '%ROOT%\\data\\error.2015.09.08.log'
+	SavePos false
+	ReadFromLast false
+	PollInterval 1
+	Exec $Message = $raw_event; $SyslogFacilityValue = 22;
+	Exec $filetype = 'apache_error';
+</Input>
+```
+
 ```
 make -C '/c/Program Files (x86)/nxlog' show
 make: Entering directory '/c/Program Files (x86)/nxlog'
