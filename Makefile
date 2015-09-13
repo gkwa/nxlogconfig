@@ -18,3 +18,6 @@ data/access.2015.09.07.log:
 
 size:
 	du -sh data/test.log
+
+clean:
+	rm -rf data/
