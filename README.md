@@ -1,3 +1,17 @@
+Setup:
+```
+cd /c/Program Files/nxlog
+git init
+git remote add origin git@github.com:TaylorMonacelli/nxlogconfig.git
+git fetch -p
+git checkout -ft tm/restart
+```
+
+Test:
+```
+make
+```
+
 Its this line:
 	Exec $filetype = 'apache_error';
 that adds the metadata 
