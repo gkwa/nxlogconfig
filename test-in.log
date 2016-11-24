@@ -1,0 +1,6 @@
+[Fri Nov 18 00:22:18.152621 2016] [core:error] [pid 14072:tid 1592] (20024)The given path is misformatted or contained invalid characters: [client 50.202.229.50:38989] AH00127: Cannot map GET /ls/://LiveSG.streambox.com/ls/actl3files/103.49.222.98-7771-111516-105245_268.jpg HTTP/1.1 to file, referer: http://liveus.streambox.com/ls/slsmap.php
+[Fri Nov 18 00:22:18.158621 2016] [core:error] [pid 14072:tid 1568] (20024)The given path is misformatted or contained invalid characters: [client 50.202.229.50:65187] AH00127: Cannot map GET /ls/://LiveUSEast.streambox.com/ls/actl3files/50.202.229.50-35532-111716-150141_1569.jpg HTTP/1.1 to file, referer: http://liveus.streambox.com/ls/slsmap.php
+[Fri Nov 18 00:22:20.418621 2016] [mpm_winnt:notice] [pid 9220:tid 368] AH00428: Parent: child process 14072 exited with status 255 -- Restarting.
+[Fri Nov 18 00:22:20.941621 2016] [mpm_winnt:notice] [pid 9220:tid 368] AH00455: Apache/2.4.23 (Win64) OpenSSL/1.0.2j configured -- resuming normal operations
+[Fri Nov 18 00:22:20.941621 2016] [mpm_winnt:notice] [pid 9220:tid 368] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:43:51
+[Fri Nov 18 00:22:20.941621 2016] [core:notice] [pid 9220:tid 368] AH00094: Command line: 'C:\\Apache\\bin\\httpd.exe -d C:/Apache'
